@@ -8,23 +8,39 @@
     <title>ToDo-List</title>
     <style>
         h1 {
-            font-size: 35px;
+            margin: 0;
+            text-align: center;
+            font-size: 40px;
+            color: #fff;
         }
 
         ul {
+            margin-left: 10px;
             font-size: 25px;
+            line-height: 1.8;
+            color: #fff;
+        }
+
+        .todo-list {
+            padding: 10px;
+            border: 2px solid rgb(130, 8, 243);
+            border-radius: 1em;
+            width: 380px;
+            background-color: rgba(67, 38, 236, 0.671);
         }
     </style>
 </head>
 
 <body>
-    <h1>Todo List</h1>
-    <ul>
-        <li>"new" - Add A Todo</li>
-        <li>"list" - List All Todos</li>
-        <li>"delete" - Remove Specific Todo</li>
-        <li>"quit" - Quit App</li>
-    </ul>
+    <div class="todo-list">
+        <h1>Todo List</h1>
+        <ul>
+            <li>"new" - Add A Todo</li>
+            <li>"list" - List All Todos</li>
+            <li>"delete" - Remove Specific Todo</li>
+            <li>"quit" - Quit App</li>
+        </ul>
+    </div>
     <script src="app.js"></script>
 </body>
 

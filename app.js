@@ -21,12 +21,3 @@ while (userQuery !== "quit") {
 }
 
 console.log("You quit app. Thanks for using. Goodbye!");
-
-
-
-
-// "new" - Add A Todo
-// "list" - List All Todos
-// "delete" - Remove Specific Todo
-// "quit" - Quit App
-
